@@ -1,0 +1,98 @@
+{
+  "id": "71a6bc19-41bb-4466-b1bc-258ed02ab1a1",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "48718f99-33a5-4b53-8f21-0e8f34e18efa",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4b36de51-841e-42e4-9475-778d329fdcc4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c71691a-d8d7-4323-b758-968ee7415720",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6ce4af0-71e8-4058-bd46-add18be33453",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товары для геймеров ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f2c121d-87d6-4d10-89dc-389d4e91251d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(3) .tile-cats__picture > .ng-star-inserted",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a5633f1-9b31-4adf-b266-c0cb0725a5d5",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.catalog-grid__cell:nth-child(3) .goods-tile__picture",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e423c81e-7a09-4d3a-97bc-cf2b59aba905",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(3) .goods-tile__picture",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "704b772a-c312-4740-b5b7-1745a7b36f48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__favorites use",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f01c1164-1fc9-4304-9b27-9fb9873ea785",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1b27c95-3b0e-4cfa-be26-30209b06f342",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21a8c6e4-1a46-4103-aae5-83fbe99aac36",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=img:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8be51aa6-aeec-489e-b9b4-39995977920e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ноутбуки и компьютеры",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1316407-4f5c-4f65-a20b-67515a13acbc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48718f99-33a5-4b53-8f21-0e8f34e18efa"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
